@@ -24,7 +24,6 @@ Não se esqueça que também temos um canal na comunidade criada no Discord para
 * https://docs.docker.com/docker-hub/repos/
 * https://jtemporal.com/subindo-imagens-docker-pro-dockerhub/
 * https://golang.org/
-* https://github.com/marcpires/fc.git
 
 ## Executando
 
