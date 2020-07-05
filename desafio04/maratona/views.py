@@ -13,9 +13,3 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         """Return the last 10 published aulas."""
         return Aula.objects.order_by('live_date')[:10]
-
-
-class DetailView(generic.DetailView):
-    model = Aula
-    template_name = 'maratona/detail.html'
-

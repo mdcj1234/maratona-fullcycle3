@@ -5,6 +5,5 @@ from . import views
 app_name = 'maratona'
 urlpatterns = [
     # ex: /maratona/
-    path('', views.IndexView.as_view(), name='index'),
-    path('<int:pk>/', views.DetailView.as_view(), name='detail')
+    path('', views.IndexView.as_view(), name='index')
 ]
